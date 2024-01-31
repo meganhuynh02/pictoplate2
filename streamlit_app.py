@@ -26,11 +26,7 @@ st.caption(":shallow_pan_of_food: A cooking assistant powered by OpenAI LLM")
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "What should we cook today? :yum:"}]
 
-#picture = st.camera_input("Take a picture of the ingredients you have")
-#if picture:
-    #st.image(picture)
-
-uploaded_file = st.file_uploader("Or upload an existing picture")
+uploaded_file = st.file_uploader("Upload a picture of the ingredients you have")
 
 if uploaded_file and not openai_api_key:
     st.info("Please add your OpenAI API key to continue.")
