@@ -14,6 +14,8 @@ st.title(":cook: PicToPlate")
 #create page caption
 st.caption(":shallow_pan_of_food: A cooking assistant powered by OpenAI LLM")
 
+st.text("Welcome to PicToPlate! This app will help find cooking recipes based on ingredients that you have. To get started, follow the instructions in the messages below.")
+
 #default on screen message
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "What should we cook today? :yum:"}]
