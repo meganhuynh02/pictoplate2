@@ -15,7 +15,9 @@ st.header(':cook: PicToPlate', divider='rainbow')
 st.subheader("Welcome to PicToPlate! Cooking at home has never been easier.")
 
 #introduction to product
-st.markdown('PicToPlate is an innovation application that allows home chefs to input an image of ingredients they have, and PicToPlate will return a list of recipes they can cook using what they already have.')
+st.markdown('PicToPlate is an innovation application that allows home chefs to input an image of ingredients \
+            they have, and PicToPlate will return a list of recipes they can cook using what they already have. \
+            To get started, follow the instructions below.')
 
 #create page caption
 st.caption(":shallow_pan_of_food: A cooking assistant powered by OpenAI LLM")
