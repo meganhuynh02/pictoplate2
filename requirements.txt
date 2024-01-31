@@ -1,4 +1,6 @@
 streamlit
 openai
-numpy
-opencv-python-headless
+base64
+PIL
+requests
+io
