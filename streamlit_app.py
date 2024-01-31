@@ -9,7 +9,7 @@ with st.sidebar:
     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
 
 #create page title
-st.title(":cook: Ingredients to Recipes")
+st.title(":cook: PicToPlate")
 
 #create page caption
 st.caption(":shallow_pan_of_food: A cooking assistant powered by OpenAI LLM")
