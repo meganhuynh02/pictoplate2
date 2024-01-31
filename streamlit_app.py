@@ -12,7 +12,10 @@ with st.sidebar:
 st.header(':cook: PicToPlate', divider='rainbow')
 
 #create page subheader
-st.subheader("Welcome to PicToPlate! This app will help find cooking recipes based on ingredients that you have. To get started, follow the instructions in the messages below.")
+st.subheader("Welcome to PicToPlate! Cooking at home has never been easier.")
+
+#introduction to product
+st.markdown('PicToPlate is an innovation application that allows home chefs to input an image of ingredients they have, and PicToPlate will return a list of recipes they can cook using what they already have.')
 
 #create page caption
 st.caption(":shallow_pan_of_food: A cooking assistant powered by OpenAI LLM")
