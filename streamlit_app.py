@@ -8,13 +8,14 @@ with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
 
-#create page title
-st.title(":cook: PicToPlate")
+# create page header
+st.header(':cook: PicToPlate', divider='rainbow')
+
+#create page subheader
+st.subheader("Welcome to PicToPlate! This app will help find cooking recipes based on ingredients that you have. To get started, follow the instructions in the messages below.")
 
 #create page caption
 st.caption(":shallow_pan_of_food: A cooking assistant powered by OpenAI LLM")
-
-st.text("Welcome to PicToPlate! This app will help find cooking recipes based on ingredients that you have. To get started, follow the instructions in the messages below.")
 
 #default on screen message
 if "messages" not in st.session_state:
