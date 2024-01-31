@@ -1,4 +1,4 @@
 streamlit
 openai
 numpy
-cv2
+opencv-python
